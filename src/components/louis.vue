@@ -1,7 +1,7 @@
 <template>
     <div class="titre">
     <h1> TITRE 1 ICI </h1>
-    <a href="https://www.leonard-de-vinci.net/"><input type="button value="Cliquez ici""></a>
+    <a href="https://www.leonard-de-vinci.net/"><input type="button" value="Cliquez ici"></a>
     </div>
 </template>
 
