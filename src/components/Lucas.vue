@@ -1,9 +1,9 @@
 <template>
     <div class="wrap">
         <div class="container-lucas">
-            <h2>Salut c Lucas</h2>
-            <button @click="count++">cliquez moi</button>
-            <p>{{count}}</p>
+            <h2 class="lucas-title">Salut c Lucas</h2>
+            <button class="button-counter" @click="count++">cliquez moi</button>
+            <p class="counter">{{count}}</p>
         </div>
 
     </div>
