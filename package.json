@@ -9,6 +9,7 @@
     "test-e2e": "npx cypress run"
   },
   "dependencies": {
+    "chokidar": "^3.5.2",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
