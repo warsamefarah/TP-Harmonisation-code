@@ -4,11 +4,15 @@
 
 <script>
 import Warsame from './components/Warsame.vue'
+import HelloWorld from './components/HelloWorld.vue'
+import SachaComponent from './components/SachaComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    Warsame
+    Warsame,
+    HelloWorld,
+    SachaComponent
   }
 }
 </script>
