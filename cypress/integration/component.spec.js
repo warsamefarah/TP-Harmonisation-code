@@ -14,6 +14,11 @@ describe('Component test', () => {
       cy.get('.counter').should('contain', '2')
     })
 
+    it('Sacha test', () => {
+      cy.get('.red').should('contain', 'Best component ever').and('be.visible');
+      cy.get('.red').should('have.css', 'color', 'rgb(255, 0, 0)')
+    })
+
     it('should verify warsame component title', () => {
       cy.get('h2').should('contain', '😫👌')
     })
