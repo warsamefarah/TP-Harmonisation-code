@@ -1,18 +1,23 @@
 <template>
   <warsame></warsame>
+  <HelloWorld></HelloWorld>
+  <SachaComponent></SachaComponent>
+  <Lucas></Lucas>
 </template>
 
 <script>
 import Warsame from './components/Warsame.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import SachaComponent from './components/SachaComponent.vue'
+import Lucas from './components/Lucas'
 
 export default {
   name: 'App',
   components: {
     Warsame,
     HelloWorld,
-    SachaComponent
+    SachaComponent,
+    Lucas
   }
 }
 </script>
